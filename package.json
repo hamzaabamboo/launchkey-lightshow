@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "@types/node": "^14.0.23",
+    "lodash": "^4.17.19",
+    "midi": "^1.0.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "ts-node-dev --respawn src/index.ts",
+    "watch": "tsc --watch index.ts"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.157",
+    "ts-node-dev": "^1.0.0-pre.50"
+  }
+}

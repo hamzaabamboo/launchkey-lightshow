@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["dom", "dom.iterable", "esnext", "WebWorker", "ScriptHost"],
+    "allowJs": true,
+    "downlevelIteration": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": false,
+    "noImplicitAny": true,
+    "noUnusedLocals": false,
+    "strictNullChecks": true,
+    "sourceMap": true,
+    "outDir": "out",
+    "typeRoots": ["src", "node_modules/@types"]
+  },
+  "defaultSeverity": "warning",
+  "include": ["src/*"],
+  "exclude": ["node_modules"]
+}
